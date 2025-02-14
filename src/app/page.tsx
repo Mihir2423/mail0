@@ -60,7 +60,7 @@ export default function Home() {
             Join waitlist
           </button>
         </form>
-        <div className="hidden relative md:flex justify-center items-center backdrop-blur-lg md:p-4 md:border border-neutral-400 md:rounded-[32px]">
+        <div className="hidden relative md:flex justify-center items-center bg-[#b4b2b21a] backdrop-blur-lg md:p-4 md:border border-neutral-400 md:rounded-[32px]">
           <Image
             src={"/mail.png"}
             alt="hero"
