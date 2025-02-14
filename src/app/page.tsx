@@ -17,8 +17,8 @@ export default function Home() {
         <h1 className="bg-clip-text bg-gradient-stop bg-gradient-to-br from-white via-30% via-white to-white/30 font-medium text-transparent md:text-[72px] text-5xl text-center leading-[60px] md:leading-[82px]">
           Your Open source <br /> Gmail alternative
         </h1>
-        <div className="flex justify-center items-center gap-12 mx-2 px-8 py-2 border-neutral-400 border-t border-b border-dashed font-medium text-neutral-400 max-md:text-sm">
-          <span className="relative">
+        <div className="flex justify-center items-center gap-12 mx-2 px-3 md:px-8 py-2 border-neutral-400 border-t border-b border-dashed font-medium text-neutral-400 max-md:text-sm">
+          <span className="relative text-center">
             Easy to self host
             <span className="top-1/2 right-[-24px] absolute border-neutral-400 border-r border-dashed h-[101px] -translate-y-1/2" />
           </span>
