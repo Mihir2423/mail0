@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Navbar from "./_components/navbar";
 import { satoshi } from "./fonts/satoshi";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Mail0",
@@ -16,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${satoshi.className} antialiased w-full`}>
-        <Navbar />
+
         {children}
       </body>
     </html>

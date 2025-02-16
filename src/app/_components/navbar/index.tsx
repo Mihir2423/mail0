@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="relative flex justify-between items-center mx-auto max-md:px-3 py-4 max-w-6xl">
+    <header className="relative flex justify-between items-center mx-auto max-md:px-3 py-4 w-full max-w-6xl">
       <div>
         <span className="font-bold text-2xl">Mail0</span>
       </div>
