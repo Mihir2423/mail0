@@ -9,9 +9,9 @@ const Navbar = () => {
         <span className="font-bold text-2xl">Mail0</span>
       </div>
       <nav className="hidden top-1/2 left-1/2 absolute sm:flex justify-between items-center gap-6 text-sm -translate-x-1/2 -translate-y-1/2">
-        <Link href="#">Github</Link>
-        <Link href="#">Discord</Link>
-        <Link href="#">Contact</Link>
+        <Link href="https://github.com/Mihir2423/mail0">Github</Link>
+        <Link href="https://x.com/mihir___dev">Discord</Link>
+        <Link href="https://mihircodes.in">Contact</Link>
       </nav>
       <button
         className="flex items-center gap-2 px-3 py-1 rounded-md"

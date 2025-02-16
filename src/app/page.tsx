@@ -2,7 +2,8 @@
 
 import { Contact, Github, Mail } from "lucide-react";
 import Image from "next/image";
-import { FaDiscord } from "react-icons/fa";
+import Link from "next/link";
+import { FaTwitter } from "react-icons/fa";
 import Navbar from "./_components/navbar";
 
 export default function Home() {
@@ -25,9 +26,15 @@ export default function Home() {
                 "linear-gradient(to bottom, #535050 0%, rgba(34, 34, 35, 0.6) 99.75%)",
             }}
           >
-            <Github size={18} />
-            <FaDiscord size={18} />
-            <Contact size={18} />
+            <Link href="https://github.com/Mihir2423/mail0">
+              <Github size={18} />
+            </Link>
+            <Link href="https://x.com/mihir___dev">
+              <FaTwitter size={18} />
+            </Link>
+            <Link href="https://mihircodes.in">
+              <Contact size={18} />
+            </Link>
           </div>
           <h1 className="bg-clip-text bg-gradient-stop bg-gradient-to-br from-white via-30% via-white to-white/30 mx-2 font-medium text-[40px] text-transparent md:text-[72px] text-center leading-[60px] md:leading-[82px]">
             Your Open source <br /> Gmail alternative
